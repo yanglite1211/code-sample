@@ -5,15 +5,6 @@ import shutil
 import numpy as np
 import time
 import re
-from nsd_dbleaf import nsd_dbleaf
-from nsd_pickdbleaf import *
-import sys
-sys.path.insert(0, '../../vhlab_toolbox_python/datastructures')
-sys.path.insert(0, '../../vhlab_toolbox_python/fileio/structUtility')
-from emptystruct import *
-from loadStructArray import *
-from saveStructArray import *
-from structmerge import *
 
 class nsd_dbleaf_branch(nsd_dbleaf):
     ''' NSD_DBLEAF_BRANCH - A class that manages branches of NSD_DBLEAF objects with searchable metadata'''
